@@ -11,7 +11,7 @@ export const listContainer = [
   },
   {
     id: 3,
-    name: "Peliculas",
+    name: "Películas",
     link: "/#",
   },
 ];

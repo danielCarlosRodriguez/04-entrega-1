@@ -5,9 +5,9 @@ import { listContainer } from './listContainer';
 export const ItemListContainer = () => {
   return (
     <Nav className="me-auto">
-      {listContainer.map((item) => (
+      {listContainer.map((item, index) => (
         <>
-          <Nav.Link key={item.id} href={item.link} className="text-light">
+          <Nav.Link key={index} href={item.link} className="text-light">
             {item.name}
           </Nav.Link>
         </>
