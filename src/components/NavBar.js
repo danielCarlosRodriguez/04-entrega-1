@@ -4,7 +4,7 @@ import { PlayBtn } from "react-bootstrap-icons";
 
 import { CartWidget } from "./CartWidget";
 
-export const NavBar = (props) => {
+export const NavBar = ({children}) => {
   return (
     <>
       <Navbar bg="dark" variant="dark">
@@ -13,7 +13,7 @@ export const NavBar = (props) => {
             <PlayBtn size={30} color="royalblue" />
           </Navbar.Brand>
 
-          {props.children}
+          {children}
 
           <CartWidget />
         </Container>
