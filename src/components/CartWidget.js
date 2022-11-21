@@ -2,7 +2,6 @@ import React from "react";
 import { Cart3 } from "react-bootstrap-icons";
 import { Badge } from "react-bootstrap";
 
-
 export const CartWidget = () => {
   return (
     <div className="dropdown text-end">
